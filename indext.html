@@ -1,70 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hoja de Vida - Estudiante</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida - Cristian Perez</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Cristian Pérez</h1>
-      <p>Estudiante de desarrollo de sofware</p>
+  <div class="container">
+    <header>
+      <h1>Cristian Perez</h1>
+      <p>Estudiante de desarrollo de Software</p>
+    </header>
+
+    <div class="grid-layout">
+      <aside>
+        <img src="https://media-bog2-2.cdn.whatsapp.net/v/t61.24694-24/485525896_9642219365841888_4366296745196748702_n.jpg?ccb=11-4&oh=01_Q5Aa1QHlsDmMGQM0UK7d6vBfmrSgpQWkpW1a92rjZGcfV3BKDw&oe=682A5776&_nc_sid=5e03e0&_nc_cat=108" alt="Foto de Cristian" class="photo">
+
+        <section>
+          <h2>Datos de contacto</h2>
+          <ul>
+            <li>📧 cmperez059@gmail.com</li>
+            <li>📱 +57 310 705 1516</li>
+            <li>🐙 GitHub: github.com/cristian20252025</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Idiomas</h2>
+          <ul>
+            <li>Español: Nativo</li>
+            <li>Inglés: A1
+          </ul>
+        </section>
+
+        <section>
+          <h2>Habilidades</h2>
+          <ul class="tags">
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>python</li>
+            <li>adaptabilidad al cambio</li>
+            <li>trabajo en equipo</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Intereses</h2>
+          <ul>
+            <li>⚽ Fútbol</li>
+            <li>🎨 Diseño</li>
+            <li>💻 Desarrollo de software</li>
+          </ul>
+        </section>
+        
+      </aside>
+
+      <main>
+        <section>
+          <h2>Perfil Profesional</h2>
+          <p>Soy una persona honesta, comprometida,responsable y dedicada a mis labores, con buena actitud para el trabajo en equipo y busco oportunidades para aplicar mis conocimientos en proyectos reales.</p>
+        </section>
+
+        <section>
+          <h2>Educación</h2>
+          <ul>
+            <li><strong>tecnico en mecanica industrial</strong><br>colegiom salesiano, Bucaramanga(2011 - 2016)</li>
+            <li><strong>tecnologo en diseño de elementos mecanicos para su fabricacion con maquinas y herramientas cnc</strong><br>SENA CIMI, giron(2017 - 2019)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Experiencia Laboral</h2>
+          <ul>
+            <li><strong>Practicante meltalmecanico</strong> (octubre 2018 – abril 2019)<br>Desarrollo de componentes en React, diseño de interfaces en Figma, pruebas de usabilidad.</li>
+            <li><strong>inspector de calidad </strong> (2019 – 2021)<br>se realizo revision de la piezas que se fabricaban con respecto a sus planos para asi poder darles el ok para que pasaran al siguiente proceso de ensamble</li>
+            <li><strong>mantenimiento de moldes de inyeccion </strong> (2021 – 2024)<br>se resivee el molde con su respectiva muestra de inyeccion ya sea de bases o tapas plasticas, se revisa esa muestra y con base al problema que tenga dicha muestra se procede a hacer su recpectivo arreglo y se entraga el molde para revisar que dicho arreglo alla sido efectivo, en caso de no haber ninungun problema se procede a hacerle una limpieza general al molde</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Proyectos Destacados</h2>
+          <article>
+            <h3>proyecto panaderia </h3>
+            <p>Aplicación web donde se pueden guardar los y productos y pedidos <em>(archivos.js)</em></p>
+          </article>
+          <article>
+            <h3>proyecto liga colombiana</h3>
+            <p>pagina wed donde se pueden simular cada uno de los partidos de la liga y asi poder conocer al campeon<em>(python,js y Scrum)</em></p>
+          </article>
+        </section>
+
+        <section>
+          <h2>Certificaciones</h2>
+          <ul>
+            <li>operacion y programacion de torno cnc –  sena (2018)</li>
+            <li>operar equipos de magnitud dimensional de acuerdo con los procedimientos de medicion - nivel intermedio – sena (2023)</li>
+            <li></li>
+          </ul>
+        </section>
+      </main>
     </div>
-  </header>
 
-  <main class="container">
-    <section class="profile">
-      <img src="https://via.placeholder.com/150" alt="Foto de perfil">
-      <article>
-        <h2>Perfil</h2>
-        <p>Soy una persona honesta, comprometida, responsable y dedicada a mis labores con buena actitud para el trabajo en equipo con habilidades en programación, diseño web y resolución de problemas.</p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Educación</h2>
-      <ul>
-        <li><strong>colegio salesiano</strong> – tecnico en mecanica industrial (2011 - 2016)</li>
-        <li><strong>Sena Cimi Giron</strong> – tecnolo en diseño de elementos mecanicos para su fabricacion con maquinas y herramientas cnc (2017 - 2019)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Habilidades</h2>
-      <ul class="skills">
-        <li>HTML5</li>
-        <li>python</li>
-        <li>adaptabilidad al cambio</li>
-        <li>Trabajo en equipo</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Proyectos Destacados</h2>
-      <article>
-        <h3>proyecto panaderia python (2025)</h3>
-        <p>Aplicación de una panaderia para control de productos con Python y archivos JSON.</p>
-      </article>
-      <article>
-        <h3>Landing Page Panadería</h3>
-        <p>Sitio web responsive hecho con HTML y CSS para una panadería local.</p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Contacto</h2>
-      <ul class="contact">
-        <li><strong>gmail:</strong> cmperez059@gmail.com</li>
-        <li><strong>Tel:</strong> +57 310 705 1516</li>
-        <li><strong>GitHub:</strong> github.com/cristian20252025</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Cristian Pérez - Todos los derechos reservados</p>
-  </footer>
+    <footer>
+      <p>&copy; 2025 Cristian Perez. Todos los derechos reservados.</p>
+    </footer>
+  </div>
 </body>
 </html>
